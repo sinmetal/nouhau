@@ -1,0 +1,4 @@
+steps:
+  - name: 'gcr.io/gcpug-nouhau2web/nouhau2web:v0.0.1'
+    entrypoint: 'nouhau2web'
+    args: ['-dir', '.']
